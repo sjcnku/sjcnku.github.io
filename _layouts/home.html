@@ -2,6 +2,12 @@
 layout: page
 ---
 
+<!-- Welcome Section -->
+<div style="text-align: center; margin: 2rem 0 4rem 0; padding: 2rem; background: rgba(102, 126, 234, 0.05); border-radius: 16px; backdrop-filter: blur(5px);">
+  <h1 style="margin-bottom: 0.5rem; font-size: 2.5rem;">Welcome to My Blog</h1>
+  <p style="font-size: 1.1rem; color: #667eea; font-weight: 500;">Exploring ideas, sharing knowledge, and growing together</p>
+</div>
+
 {{ content }}
 
 {% assign posts = paginator.posts | default: site.posts %}
