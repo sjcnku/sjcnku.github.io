@@ -4,19 +4,19 @@
    ========================================== */
 
 :root {
-  --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #4facfe 75%, #00f2fe 100%);
-  --gradient-secondary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  --gradient-warm: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-  --shadow-sm: 0 2px 8px rgba(102, 126, 234, 0.1);
-  --shadow-md: 0 8px 24px rgba(102, 126, 234, 0.15);
-  --shadow-lg: 0 16px 40px rgba(102, 126, 234, 0.2);
+  --gradient-primary: linear-gradient(135deg, #3b82f6 0%, #2563eb 25%, #0f172a 50%, #1d4ed8 75%, #0ea5e9 100%);
+  --gradient-secondary: linear-gradient(135deg, #1e293b 0%, #475569 100%);
+  --gradient-warm: linear-gradient(135deg, #64748b 0%, #334155 100%);
+  --shadow-sm: 0 2px 8px rgba(15, 23, 42, 0.08);
+  --shadow-md: 0 8px 24px rgba(15, 23, 42, 0.12);
+  --shadow-lg: 0 16px 40px rgba(15, 23, 42, 0.16);
   --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ========== BODY & GENERAL ========== */
 
 body {
-  background: linear-gradient(135deg, #f8f9ff 0%, #fce4ec 50%, #f3e5f5 100%);
+  background: linear-gradient(135deg, #f4f7fc 0%, #e2e8f0 50%, #cbd5e1 100%);
   background-attachment: fixed;
   background-size: 200% 200%;
   animation: gradientShift 8s ease infinite;
@@ -78,15 +78,15 @@ body {
 }
 
 .navbar-custom .avatar-container .avatar-img-border {
-  box-shadow: 0 0 20px rgba(102, 126, 234, 0.3), 0 0 40px rgba(236, 72, 153, 0.2) !important;
-  -webkit-box-shadow: 0 0 20px rgba(102, 126, 234, 0.3), 0 0 40px rgba(236, 72, 153, 0.2) !important;
-  -moz-box-shadow: 0 0 20px rgba(102, 126, 234, 0.3), 0 0 40px rgba(236, 72, 153, 0.2) !important;
+  box-shadow: 0 0 20px rgba(102, 126, 234, 0.3), 0 0 40px rgba(14, 165, 233, 0.2) !important;
+  -webkit-box-shadow: 0 0 20px rgba(102, 126, 234, 0.3), 0 0 40px rgba(14, 165, 233, 0.2) !important;
+  -moz-box-shadow: 0 0 20px rgba(102, 126, 234, 0.3), 0 0 40px rgba(14, 165, 233, 0.2) !important;
   transition: var(--transition);
 }
 
 .navbar-custom .avatar-container:hover .avatar-img-border {
   transform: scale(1.05);
-  box-shadow: 0 0 30px rgba(102, 126, 234, 0.4), 0 0 60px rgba(236, 72, 153, 0.3) !important;
+  box-shadow: 0 0 30px rgba(102, 126, 234, 0.4), 0 0 60px rgba(14, 165, 233, 0.3) !important;
 }
 
 /* ========== MAIN CONTENT ========== */
@@ -251,13 +251,13 @@ main > * {
   display: inline-block;
   padding: 0.4rem 0.9rem;
   margin: 0.25rem;
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(236, 72, 153, 0.1));
-  color: #667eea;
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(15, 23, 42, 0.1));
+  color: #2563eb;
   border-radius: 20px;
   text-decoration: none;
   font-size: 0.85rem;
   font-weight: 500;
-  border: 1px solid rgba(102, 126, 234, 0.2);
+  border: 1px solid rgba(59, 130, 246, 0.2);
   transition: var(--transition);
 }
 
@@ -308,7 +308,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #ec4899;
+  color: #60a5fa;
   text-decoration: underline;
 }
 
@@ -323,7 +323,7 @@ footer .list-inline-item a {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background: rgba(167, 139, 250, 0.1);
+  background: rgba(96, 165, 250, 0.1);
   transition: var(--transition);
 }
 
